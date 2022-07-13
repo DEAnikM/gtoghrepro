@@ -1,0 +1,52 @@
+--- 
+nodes: 
+  - 
+    description: "A set of terms related to Data Classification"
+    name: imdb_movies_table
+    terms: 
+      - 
+        custom_properties: 
+          is_confidential: false
+        description: "Sensitive Data"
+        name: id
+      - 
+        custom_properties: 
+          is_confidential: true
+        description: "Confidential Data"
+        name: title
+      - 
+        custom_properties: 
+          is_confidential: true
+        description: "Highly Confidential Data"
+        name: year
+      - 
+        custom_properties: 
+          is_confidential: true
+        description: "Highly Confidential Data"
+        name: date_published
+      - 
+        custom_properties: 
+          is_confidential: true
+        description: "Highly Confidential Data"
+        name: duration
+      - 
+        custom_properties: 
+          is_confidential: true
+        description: "Highly Confidential Data"
+        name: country
+      - 
+        custom_properties: 
+          is_confidential: true
+        description: "Highly Confidential Data"
+        name: worldwide_gross_income
+      - 
+        custom_properties: 
+          is_confidential: true
+        description: "Highly Confidential Data"
+        name: languages
+owners: 
+  users: 
+    - datahub
+source: DataHub
+url: "https://github.com/datahub-project/datahub/"
+version: 1
